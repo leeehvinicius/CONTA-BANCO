@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-    public void Cadastro() {
+    public void Cadastrar() {
         System.out.println("Digite seu nome");
         String nome = scanner.next();
         System.out.println("Nome Com Sucesso : " +nome);
